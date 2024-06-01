@@ -6,7 +6,7 @@ const Hero = () => {
       <div className=" md:h-[500px] container mx-auto px-6 flex flex-col md:flex-row items-center justify-center ">
         <div className=" mx-4 flex justify-center ">
           <img
-            src="src/assets/rakib.jpg"
+            src="https://rakib-28.github.io/My-Portfolio/src/assets/rakib.jpg"
             alt="Rakib"
             className="w-48 h-48 md:w-64 md:h-64 rounded-full shadow-lg object-cover"
           />
