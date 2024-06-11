@@ -1,8 +1,9 @@
 import React from "react";
+import Skills from "./Skills";
 
 const Hero = () => {
   return (
-    <section id="Hero" className="bg-gray-100 py-20 relative ">
+    <section id="Hero" className="bg-indigo-100 py-20 relative ">
       <div className=" md:h-[500px] container mx-auto px-6 flex flex-col md:flex-row items-center justify-center ">
         <div className=" mx-4 flex justify-center ">
           <img
@@ -18,6 +19,14 @@ const Hero = () => {
           <p className="text-lg md:text-xl text-gray-600 mb-4">
             A passionate developer building beautiful web applications
           </p>
+          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-1">
+            <Skills skill="🔰 HTML" />
+            <Skills skill="🔰 CSS" />
+            <Skills skill="🔰 Tailwind" />
+            <Skills skill="🔰 Javasript" />
+            <Skills skill="🔰 React" />
+            <Skills skill="🔰 NodeJS" />
+          </div>
         </div>
       </div>
     </section>

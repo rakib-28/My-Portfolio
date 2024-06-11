@@ -24,7 +24,7 @@ function Header() {
   };
 
   return (
-    <header className="bg-gray-800 text-white p-4 flex justify-between items-center sticky top-0 z-50">
+    <header className="bg-gray-800 text-white p-4 md:px-10 lg:px-20 flex justify-between items-center sticky top-0 z-50">
       <div className="text-lg font-bold">My Portfolio</div>
       <nav className="flex items-center">
         <Link to="/" className="mr-4">
