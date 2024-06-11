@@ -22,10 +22,10 @@ const Hero = () => {
           <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-1">
             <Skills skill="🔰 HTML" />
             <Skills skill="🔰 CSS" />
+            <Skills skill="🔰 Bootstrap" />
             <Skills skill="🔰 Tailwind" />
             <Skills skill="🔰 Javasript" />
             <Skills skill="🔰 React" />
-            <Skills skill="🔰 NodeJS" />
           </div>
         </div>
       </div>
