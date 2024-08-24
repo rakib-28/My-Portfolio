@@ -2,7 +2,7 @@ import React from "react";
 
 const Project = (props) => {
   return (
-    <div className="bg-white rounded-lg shadow-md overflow-hidden w-80">
+    <div className="bg-blue-100 rounded-lg shadow-md overflow-hidden w-80">
       <img src={props.image} alt={props.name} className="w-full object-cover" />
       <div className="p-4">
         <h3 className="text-xl font-bold mb-2">{props.name}</h3>

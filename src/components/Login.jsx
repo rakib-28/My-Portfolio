@@ -18,13 +18,17 @@ function Login() {
         navigate("/"); // Redirect to the portfolio page after login
       })
       .catch((error) => {
-        setError(error.message);
+        setError("The Email or Password is Incorrect.");
+        //setError(error.message);
       });
   };
 
   return (
-    <div className="bg-indigo-50 flex items-center justify-center h-screen">
-      <form onSubmit={handleSubmit} className="bg-white p-6 rounded shadow-md">
+    <div className="bg-gradient-to-r from-slate-950 to-blue-950 flex items-center justify-center h-screen border-[1px] border-slate-950 border-y-amber-400">
+      <form
+        onSubmit={handleSubmit}
+        className="bg-blue-100 p-6 rounded shadow-md"
+      >
         <h2 className="text-2xl mb-4">Login</h2>
         {error && <p className="text-red-500 mb-4">{error}</p>}
         <div className="mb-4">
