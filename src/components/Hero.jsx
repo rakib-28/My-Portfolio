@@ -12,7 +12,7 @@ const Hero = () => {
           <img
             src="https://rakib-28.github.io/My-Portfolio/src/assets/rakib.jpg"
             alt="Rakib"
-            className="w-48 h-48 md:w-64 md:h-64 rounded-full shadow-lg object-cover border-4 border-slate-950 hover:border-amber-400"
+            className="w-48 h-48 md:mt-6 lg:mt-0 md:h-[234px] md:w-64 lg:w-64 lg:h-64 rounded-full shadow-lg object-cover border-4 border-slate-950 hover:border-amber-400"
           />
         </div>
         <div className="  mt-6 text-center ">
